@@ -20,3 +20,19 @@ Built with **React, HTML, CSS, and JavaScript**.
 - JavaScript (ES6+)
 - HTML5, CSS3
 - OPEN AI
+  
+---
+
+## 📂 Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/recipe-app.git
+
+# Navigate to the project folder
+cd recipe-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
