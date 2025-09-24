@@ -31,7 +31,7 @@ export default function App() {
             <Route path="ai-recipe" element={<AiFetchedRecipe/>}/>
             <Route path="subscription" element={<Subscription />} />
             <Route path="latestnews" element={<LatestNews />} />
-            <Route path=":id" element={<SingleCategory />} />
+            <Route path="/categories/:id" element={<SingleCategory />} />
             <Route path="*" element={<NotFound />} />
           </Route>
           <Route path="/usersignup" element={<UserSignUp />} />

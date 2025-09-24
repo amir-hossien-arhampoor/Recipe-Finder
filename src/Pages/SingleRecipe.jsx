@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import detailedRecipes from "../Data/detailed-recipes"
+import NotFound from "./NotFound"
 import cookInfo from "../Data/recipe-cook-info"
 import CookInfo from "../Components/CookInfo"
 
@@ -12,7 +13,7 @@ export default function SingleRecipe() {
         setRecipe(fetchedRecipe)
     }, [id])
     if (!recipe) {
-        return <div>Loading....</div>
+        return <NotFound/>
     }
     return (
         <>

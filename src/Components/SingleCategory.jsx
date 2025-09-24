@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom"
 export default function SingleCategory() {
     const [recipes, setRecipes] = useState([])
     const { id } = useParams()
-
+    console.log(id)
     useEffect(() => {
         const categorizedRecipes = detailedRecipes.filter(recipe => {
             return recipe.category === id.toLowerCase()

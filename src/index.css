@@ -1686,6 +1686,38 @@ body {
     background-color: #ffffff50;
     padding: 20px;
 }
+/* Not Found */
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.not-found h1{
+    font-size: 280px;
+    font-style: italic;
+    color: #ff8800;
+}
+.not-found-text {
+    display: flex;
+    flex-direction: column;
+}
+.not-found-text p{
+    font-size: 50px;
+}
+.not-found-text span{
+    font-size: 70px;
+}
+.not-found-text a {
+    text-decoration: none;
+    color: black;
+    background-color: #fcae32;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
 
 /* Responsive  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media (max-width:1310px) {

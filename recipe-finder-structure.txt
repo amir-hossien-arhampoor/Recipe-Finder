@@ -1,0 +1,22 @@
+src/
+ ├── App.jsx
+ ├── main.jsx
+ ├── pages/
+ │    ├── About.jsx
+ │    ├── Home.jsx
+ │    ├── News.jsx
+ │    ├── Recipes.jsx
+ │    ├── SingleRecipe.jsx
+ │    ├── Subscription.jsx
+ │    └── UserSignUp.jsx
+ ├── components/
+ │    ├── Layout.jsx
+ │    ├── Header.jsx
+ │    ├── Footer.jsx
+ │    ├── FeaturedRecipe.jsx
+ │    ├── Categories.jsx
+ │    ├── LatestNews.jsx
+ │    ├── NewestRecipes.jsx
+ │    └── NewsLetterSub.jsx
+ └── Data/
+      └── recipes.js
