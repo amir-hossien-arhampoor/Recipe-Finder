@@ -18,18 +18,20 @@ State Management: React Hooks
 
 API: OPENAI
 
+## for AI recipe generator you need to get api key from OPEN AI and paste it in {apiKey} variable inside AiFetchedRecipe.jsx
+
 ⚙️ Installation & Setup
 
 Clone the repo and install dependencies:
 
 # Clone repo
-git clone https://github.com/amir-hoosien-arhampoor/Recipe-Finder.git
+    git clone https://github.com/amir-hoosien-arhampoor/Recipe-Finder.git
 
 # Navigate to project
-cd Recipe-Finder
+    cd Recipe-Finder
 
 # Install dependencies
-npm install
+    npm install
 
 # Start development server
-npm run dev
+    npm run dev
