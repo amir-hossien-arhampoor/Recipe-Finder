@@ -79,7 +79,6 @@ export default function AiFetchedRecipe() {
 					console.error("JSON parse error:", err, match[0]);
 				}
 			} else {
-				console.error("No JSON object found in response:", cleanText);
 				setLoading(false)
 			}
 		}
